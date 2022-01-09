@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./content/font/fontawesome-5.15.1/css/all.css">
+</head>
+<body style="min-height: 1000px;">
+    <div class="d-row">
+        <label class="d-label" for="d-btn">1. Button</label>
+        <button class="d-btn">Nộp hồ sơ</button>
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2. Input</label>
+        <input type="text" class="d__input-label" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2.1 Invalid input</label>
+        <input type="text" class="d__input-label d__input--invalid" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2.3 Input-icon</label>
+        <input type="text" class="d__input-label d__input--icon" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">2.3 Invalid input-icon</label>
+        <input type="text" class="d__input-label d__input--icon d__input--invalid" placeholder="Tìm kiếm theo tên, số hồ sơ">
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">3. Combobox</label>
+        <select class="d-combobox" name="" id="">
+            <option value="">Trạng thái 1</option>
+            <option value="">Trạng thái 2</option>
+            <option value="">Trạng thái 3</option>
+            <option value="">Trạng thái 4</option>
+        </select>
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">4. Table</label>
+        <table class="d-table">
+            <thead>
+                <tr>
+                    <th class="text-align-left" style="width: 100px;">Ma nhan vien</th>
+                    <th class="text-align-left">Ho va ten</th>
+                    <th class="text-align-left" style="width: 50px;">Gioi tinh</th>
+                    <th class="text-align-center" style="width: 80px;">Ngay sinh</th>
+                    <th class="text-align-right"style="width: 130px;">Muc luong co ban</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-align-left">20184085</td>
+                    <td class="text-align-left">Dinh Thi Duyen</td>
+                    <td class="text-align-left">Nu</td>
+                    <td class="text-align-center">23/02/2000</td>
+                    <td class="text-align-right">4.500$</td>
+                </tr>
+                <tr>
+                    <td class="text-align-left">20184086</td>
+                    <td class="text-align-left">Dinh Thi Duyen</td>
+                    <td class="text-align-left">Nu</td>
+                    <td class="text-align-center">23/02/2000</td>
+                    <td class="text-align-right">4.500$</td>
+                </tr>
+                <tr>
+                    <td class="text-align-left">20184085</td>
+                    <td class="text-align-left">Dinh Thi Duyen</td>
+                    <td class="text-align-left">Nu</td>
+                    <td class="text-align-center">23/02/2000</td>
+                    <td class="text-align-right">4.500$</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="d-paging">
+            <div class="d-paging--left">Hiên thị 1-10 nhân viên/trang</div>
+            <div class="d-paging--center">
+                <div class="d-paging--center--first">
+                </div>
+                <div class="d-paging--center--prev">
+                </div>
+                <div class="d-paging--center--number">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                </div>
+                <div class="d-paging--center--next">
+                </div>
+                <div class="d-paging--center--last">
+                </div>
+            </div>
+            <div class="d-paging--right">
+                <select class="d-combobox d-combobox--paging">
+                    <option value="10">10 nhân viên/trang</option>
+                    <option value="15">15 nhân viên/trang</option>
+                    <option value="20">20 nhân viên/trang</option>
+                </select>
+            </div>            
+        </div>
+
+    </div>
+
+    <div class="d-row">
+        <label class="d-label" for="d-btn">4. Toast message</label>
+        <div class="d-toast-box">
+            <div class="d-toast-msg">
+                <div class="d-toast-msg--icon"></div>
+                <div class="d-toast-msg--text">Thêm mới thành công!</div>
+                <div class="d-toast-msg--close"></div>
+            </div>
+            <div class="d-toast-msg">
+                <div class="d-toast-msg--icon"></div>
+                <div class="d-toast-msg--text">Xóa thành công!</div>
+                <div class="d-toast-msg--close"></div>
+            </div>
+            <div class="d-toast-msg">
+                <div class="d-toast-msg--icon"></div>
+                <div class="d-toast-msg--text">Thêm mới thành công!</div>
+                <div class="d-toast-msg--close"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d--popup-modal">
+        <div class="d-row">
+            <label class="d-label" for="d-btn">5. Pop up</label>
+            <div class="d-popup" id="dlgPopup">
+                <div class="d-popup--title">
+                    <div class="d-popup--title-1">Đóng form thông tin chung</div>
+                    <div class="d-popup--title-close"></div>
+                </div>
+                <div class="d-popup--content">
+                    <div class="d-popup--content-icon d--icon d--icon-warning"><i class="fas fa-exclamation-triangle"></i></div>
+                    <div class="d-popup--content-text"> Some thing neu here <b>Thong tin chung cua</b> xem ben duoi day</div>
+                </div>
+                <div class="d-popup--button">
+                    <button class="d-btn d-btn-default">Hủy</button>
+                    <button class="d-btn">Đóng</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+
+    
+    
+</body>
+</html>

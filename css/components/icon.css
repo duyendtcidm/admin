@@ -1,0 +1,57 @@
+.navbar__menu--item-icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 16px;
+}
+
+.navbar__menu--item-icon-1 {
+    background-image: url('../../content/icon/dashboard.png');
+    filter: brightness(0) invert(1);
+}
+
+.navbar__menu--item-icon-2 {
+    background-image: url('../../content/icon/document-online.png');
+}
+
+.navbar__menu--item-icon-3 {
+    background-image: url('../../content/icon/dic-employee.png');
+}
+
+.navbar__menu--item-icon-4 {
+    background-image: url('../../content/icon/1-picture.svg');
+}
+
+.navbar__menu--item-icon-5 {
+    background-image: url('../../content/icon/setting.png');
+}
+
+.d-toast-msg--icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 10px;
+    -webkit-mask: url('../../content/icon/warning.svg') no-repeat center;
+    mask: url('../../content/icon/warning.svg') no-repeat center;
+    background-color: #c44646;
+}
+
+.d--icon {
+    background-color: #E5E5E5;
+    background-size: contain;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    align-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 24px;
+    text-align: center;
+}
+
+.d--icon-warning {
+    color: rgb(240, 174, 32);
+}

@@ -1,0 +1,120 @@
+.content {
+    float: left;
+    width: calc(100% - 227px);
+    height: calc((100vh - 41px));
+    box-sizing: border-box;
+}
+
+.content__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-right: 16px;
+}
+
+.content__title--name {
+    font-weight: 700;
+    font-size: 20px;
+    flex: 1;
+}
+
+.content__title--button {
+    height: 40px;
+    background-color: #6A8A82;
+    border-radius: 4px;
+    min-width: 100px;
+    display: flex;
+    float: right;
+    cursor: pointer;
+    align-items: center;
+}
+
+.content__title--button-icon {
+    margin-left: 16px;
+    background-image: url('../../content/icon/add.png');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.content__title--button-text {
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
+.content__title--button:hover {
+    background-color: #6e948a;
+}
+
+.content__title--button:active {
+    background-color: #70948b;
+}
+
+.content__choice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: 70% auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+
+.content__choice--standard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__choice--button {
+    width: 24px;
+    height: 24px;
+    padding: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    background-size: 50% auto;
+    background-position: center;
+}
+
+.content__choice--button:hover {
+    background-color: #bbbbbb !important;
+}
+
+.content__choice--button-refresh {
+    background-image: url('../../content/icon/refresh.png');
+    margin-left: 8px;
+}
+
+.content__choice--button-delete {
+    background-image: url('../../content/icon/remove-empl.svg');
+    fill: darkorange;
+    filter: hue-rotate(220deg) saturate(5);
+}
+
+.content__table {
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
+    margin-left: 16px;
+    justify-content: space-between;
+}
+
+.content__table th {
+    background-color: #fff;
+    position: sticky;
+    top: 0
+}
+
+.content__table--tbl {
+    height: calc(100vh - 198px);
+    overflow: auto;
+}

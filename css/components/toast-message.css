@@ -1,0 +1,39 @@
+.d-toast-box {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.d-toast-item {
+    display: none;
+}
+
+.d-toast-msg {
+    position: relative;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.d-toast-msg--text {
+    color: #000000;
+    flex: 1;
+}
+
+.d-toast-msg--close {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    -webkit-mask: url('../../content/icon/x.svg') no-repeat center;
+    mask: url('../../content/icon/x.svg') no-repeat center;
+    /* background-image: url('../../content/icon/x.svg'); */
+    background-color: #c44646;
+    cursor: pointer;
+    background-size: 50% auto;
+}

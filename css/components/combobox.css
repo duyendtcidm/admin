@@ -1,0 +1,55 @@
+.d-combobox {
+    border: 1px solid #BBBBBB;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    outline: unset;
+    background-color: unset;
+    width: 211px;
+    margin-bottom: 16px;
+    margin-top: 4px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.d-combobox:focus {
+    border-color: #6A8A82;
+    ;
+}
+
+.d--combobox {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.d--combobox-input {
+    border-radius: 0 0px 0px 4px;
+    border: 1px solid #bbb;
+}
+
+.d--combobox-icon {
+    background-color: #6A8A82;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #bbb;
+    background-size: contain;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    padding: 20px;
+    display: inline-block;
+    align-content: center;
+    text-decoration: none;
+}
+
+.d--icon-down {
+    background-image: url(../../content/icon/1-chevron-down.svg);
+    background-repeat: no-repeat;
+}
+
+.d--combobox .d--combobox-data {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    border: 1px solid #bbbbbb;
+}

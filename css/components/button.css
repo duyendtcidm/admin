@@ -1,0 +1,63 @@
+.d-btn {
+    background-color: #6A8A82;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    color: #ffffff;
+    ;
+    font-size: 13px;
+    font-weight: normal;
+    outline: unset;
+    border: none;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.d-btn:hover,
+.d-btn--icon:hover {
+    background-color: #6e948a;
+}
+
+.d-btn:focus,
+.d-btn--icon:focus {
+    background-color: #6e948a;
+}
+
+.d-btn:active,
+.d-btn--icon:active {
+    background-color: #70948b;
+}
+
+.d-btn--icon {
+    background-color: #6A8A82;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    color: #ffffff;
+    ;
+    font-size: 13px;
+    font-weight: normal;
+    outline: unset;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.d-btn--icon-i {
+    width: 13px;
+    height: 13px;
+    background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
+    background-size: cover;
+    background-position: center;
+    margin-right: 8px;
+}
+
+.d-btn--icon-save {
+    background-image: url('../../content/icon/1-floppy-o.svg');
+}

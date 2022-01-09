@@ -1,0 +1,47 @@
+.header {
+    height: 48px;
+    width: calc(100% - 227px);
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid #bbbbbb;
+    padding-right: 16px;
+}
+
+.header__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+.header__user--avatar {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    background-image: url('../../content/icon/default-avatar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.header__user--name {
+    margin-left: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.header__user--moreinfor {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../content/icon/option.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
